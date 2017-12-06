@@ -72,6 +72,11 @@ Passing this string to console.log should show something like this:
 When you have a program that generates this pattern, define a variable size = 8 and change the program so that it works for any size, outputting a grid of the given width and height.
 */
 
+/*
+I recieved a lot of help with this one, and am not entirely sure how it works exactly.
+*/
+
+
 var chessBoard = '';
 
 // need two loops!
@@ -97,7 +102,3 @@ for (theRow = 1; theRow <= 8; theRow++) {
 
    console.log(chessBoard);
 }
-
-/*
-I recieved a lot of help with this one, and am not entirely sure how it works exactly.
-*/
