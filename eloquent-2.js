@@ -21,7 +21,7 @@ Write a program that uses console.log to print all the numbers from 1 to 100, wi
 
 When you have that working, modify your program to print "FizzBuzz", for numbers that are divisible by both 3 and 5 (and still print "Fizz" or "Buzz" for numbers divisible by only one of those).
 */
-
+// Part One
 for (upToHundred = 1; upToHundred <= 100; upToHundred++) {
     if ( (upToHundred % 3) == 0 ) {
 
@@ -35,6 +35,7 @@ for (upToHundred = 1; upToHundred <= 100; upToHundred++) {
     }
 }
 
+// Part Two
 
 for (upToHundred = 1; upToHundred <= 100; upToHundred++) {
     if ( (upToHundred % 3) == 0 && (upToHundred % 5) == 0 ) {
